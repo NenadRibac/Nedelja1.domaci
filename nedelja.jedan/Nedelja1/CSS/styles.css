@@ -1,0 +1,96 @@
+/* Zadatak sam radio na desktop monitoru bez responsive-a. Takodje za dodavanje clickable dugmeta (preko javascripte) sam imao malu pomoc, interesovalo me je pa mi je jedan drugar objasnio kako se radi. */
+body {
+    background-color: darkblue;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+.make-color {
+    color: red;
+}
+.high-five-color {
+    color: blue;
+}
+
+header, footer, nav{
+    background-color: cadetblue;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+header {
+    padding: 10px 0 10px 0;
+    margin-bottom: 10px;
+}
+
+main{
+    
+    
+}
+
+#about-me {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
+th img {
+    border: 5px solid palegoldenrod;
+    border-style: double;
+}
+#aplauz {
+    border: 5px solid darkblue;
+    border-style: double;
+}
+
+#project-section {
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
+th {
+    width: 5000px;
+}
+ul {
+    text-align: start;
+}
+h4 {
+    padding-bottom: 20px;
+}
+h2 {
+    padding: 10px;
+}
+
+nav {
+    top: 0;
+    left: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    width: 100%;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 20px;
+    color: black;
+    background: lightblue;
+}
+
+nav a {
+    margin-left: 10px;
+}
+
+nav a:last-child {
+    margin-right: 10px;
+}
+
+#reaction {
+    font-size: 100px;
+}
